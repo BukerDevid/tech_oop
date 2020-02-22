@@ -4,7 +4,7 @@ from Sto.services import Services
 class DidSerives():
     auto = Auto.TempAuto
     service = Services.PriceServices
-    time_service = int
+    timeService = int
     def __init__(self, auto, service):
         self.auto = auto
         self.service = service
@@ -12,7 +12,7 @@ class DidSerives():
 class DidSerivesHight():
     auto = Auto.TempAutoHight
     service = Services.PriceServices
-    time_service = int
+    timeService = int
     def __init__(self, auto, service):
         self.auto = auto
         self.service = service
